@@ -18,10 +18,10 @@ function whileLoop(number) {
 
 function doWhileLoop(integer) {
   function incrementVariable() {
-    i = i - 1;
-    return i;
+    integer = integer - 1;
+    return integer;
   }
   do {
     console.log("I run once regardless")
-  } while (incrementVariable() )
+  } while (incrementVariable() < integer)
 }
