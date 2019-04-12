@@ -22,9 +22,9 @@ function doWhileLoop(integer) {
     return integer;
   }
   do {
-    console.log("I run once regardless.")
+    console.log("I run once regardless.");
+    incrementVariable();
   } while (incrementVariable() < integer)
-  incrementVariable();
 }
 
 
