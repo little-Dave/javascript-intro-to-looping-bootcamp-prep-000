@@ -15,12 +15,13 @@ function whileLoop(number) {
   }
   return "done"
 }
-  function incrementVariable() {
+
+function incrementVariable() {
     integer = integer - 1;
     return integer;
-  }
-function doWhileLoop(integer) {
+}
 
+function doWhileLoop(integer) {
   do {
     console.log("I run once regardless.");
     incrementVariable();
